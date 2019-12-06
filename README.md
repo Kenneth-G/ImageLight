@@ -95,11 +95,13 @@ public void updateTitle() {
 
 This displays the current directory of the image + the file size along with the unit of measurment (kb,mb,gb etc) along with the dimentions of the image. 
 
-# Running the code yourself.
-
+## Running the code yourself.
 I haven't included a JAR yet but to run the code yourself, you should be able to just download it. All the maven dependandies are included in the POM file. 
 
-# Thoughts on this project.
+## Future updates
+Currently I am still working on this project. So will be adding to it over time.
+
+## Thoughts on this project.
 I really enjoyed making this partly because its something that I am going to use. There were some headaches. Especially when starting off with an error "JavaFX runtime components are missing" even when it was included. It turns out that Java was looking for dependencies on the module path and not the classpath. I fixed this by main launch the actual FX application class. (ImageLight.java launches JFXApplication.java)
 
 Overall really enjoyed making it. 
