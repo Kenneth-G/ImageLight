@@ -22,9 +22,6 @@ import javafx.scene.text.TextFlow;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-
-
-
 public class View{
 
     // Used to divide the vertical size of each element in root.
@@ -41,8 +38,8 @@ public class View{
     private VBox root = new VBox();
 
     //I want to store the buttons in a dictionary so when want to access them from the countroller, I can just access them by name.
-    HashMap<String, Button> buttonMap = new HashMap<String, Button>();
-    HashMap<String, Hyperlink> linkMap = new HashMap<String, Hyperlink>();
+    private HashMap<String, Button> buttonMap = new HashMap<String, Button>();
+    private HashMap<String, Hyperlink> linkMap = new HashMap<String, Hyperlink>();
 
 
     public View(Double windowHeight, File defaultImage){
@@ -52,6 +49,7 @@ public class View{
         menu = createMenu();
         StackPane imageWindow = createImageWindow(defaultImage);
 
+        //If the user opened this software via the context menu, we want to set the default image to be the image they clicked.
         setImage(defaultImage);
 
         //root settings
@@ -74,9 +72,7 @@ public class View{
 
         menuBack.setDisable(true);
         menuForward.setDisable(true);
-
         Pane spacer = new Pane();
-
         Button menuProject = createMenuButton(new Image(getClass().getResourceAsStream("/assets/information.png"), 30, 30, true, true));
 
         buttonMap.put("menuOpen", menuOpen);
@@ -87,7 +83,6 @@ public class View{
         menu.getChildren().addAll(menuOpen, menuBack, menuForward, spacer, menuProject);
         menu.setHgrow(spacer, Priority.ALWAYS);
 
-        
         return menu;
     }
 
