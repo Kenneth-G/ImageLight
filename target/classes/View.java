@@ -141,7 +141,7 @@ public class View{
 
         Text projectInfo = new Text("\n   Github Link: ");
         projectInfo.setFill(Color.WHITE);
-        Hyperlink projectLink = new Hyperlink("https://www.google.ie/");
+        Hyperlink projectLink = new Hyperlink("https://github.com/Kenneth-G/ImageLight");
         projectLink.setTextFill(Color.web("#3ae3f2"));
 
         Text iconInfo = new Text("\n   Icon's used: ");
