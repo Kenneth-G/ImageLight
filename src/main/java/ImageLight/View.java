@@ -146,7 +146,7 @@ public class View{
 
         Text iconInfo = new Text("\n   Icon's used: ");
         iconInfo.setFill(Color.WHITE);
-        Hyperlink iconLink = new Hyperlink("https://www.yahoo.ie/");
+        Hyperlink iconLink = new Hyperlink("https://github.com/Kenneth-G/ImageLight/tree/master/Icon%20Information");
         iconLink.setBorder(Border.EMPTY);
         iconLink.setTextFill(Color.web("#3ae3f2"));        
         //
@@ -171,7 +171,7 @@ public class View{
         projectStage.initOwner(primaryStage);
         projectStage.initModality(Modality.WINDOW_MODAL);
         projectStage.setHeight(300);
-        projectStage.setWidth(400);
+        projectStage.setWidth(600);
         projectStage.setTitle("ImageLight | Project Info");
         projectStage.show();
     }
