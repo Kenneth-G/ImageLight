@@ -10,7 +10,7 @@ A Lightweight Image Viewer. Built using JavaFX
 * [Thoughts on this project.](thoughts-on-this-project-&-what-i've-learned)
 
 ## About.
-I decided to make an image viewer because it was something I would use. While Windows does come with the Photo's app it just has so many additional features I would never use. I wanted to try and make something similar to the discontinued "Windows Photo Viewer" that came with Windows XP, Visa & 7 where if I opened a image, it would just show me that image along with some navigation. 
+I decided to make an image viewer because it was something I would use. While Windows does come with the Photo's app it just has so many additional features I would never use. I wanted to try and make something similar to the discontinued "Windows Photo Viewer" that came with Windows XP, Visa & 7 where if I opened a image, it would just show me that image along with some navigation. I used a Model–view–controller design approach.
 
 ## Technologies. 
 ### Languages:
