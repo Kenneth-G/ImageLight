@@ -144,7 +144,7 @@ public class View{
         Hyperlink projectLink = new Hyperlink("https://github.com/Kenneth-G/ImageLight");
         projectLink.setTextFill(Color.web("#3ae3f2"));
 
-        Text iconInfo = new Text("\n   Icon's used: ");
+        Text iconInfo = new Text("\n   Icons used: ");
         iconInfo.setFill(Color.WHITE);
         Hyperlink iconLink = new Hyperlink("https://github.com/Kenneth-G/ImageLight/tree/master/Icon%20Information");
         iconLink.setBorder(Border.EMPTY);
